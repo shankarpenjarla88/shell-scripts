@@ -20,12 +20,12 @@ else
 fi
 
 yum install git -y 
-validate $?
+validate $? "Git Installation"
 
 yum install mysql -y 
-validate $?
+validate $? "Mysql Installation"
 
 yum install postfix -y 
-validate $?
+validate $? "Postfix Installation"
 
 
