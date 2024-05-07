@@ -41,6 +41,7 @@ then
   yum install $i -y &>>$logfile1
 else
   echo "$i is already installed"
+  exit 1
 fi
   validate $? "$i INSTALLATION IS" 
 done
