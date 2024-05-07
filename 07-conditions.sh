@@ -4,7 +4,7 @@
 
 number=$1
 
-if [$number -ge 10]
+if [ $number -ge 10 ]
 then
   echo "$number is greater then 10"
 else
