@@ -10,5 +10,5 @@ then
   exit 1 
 else
   echo "NOW YOU ARE IN ROOT ACCESS,INSTALLATION IN PROCESS"
-
+fi
   yum install mysql -y
