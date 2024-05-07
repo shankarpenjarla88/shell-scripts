@@ -7,7 +7,7 @@ N="\e[0m"
 
 Date=$( date + %f )
 scriptname=$0
-logfile1= /tmp/ $scriptname-$Date.log
+logfile1=/tmp/$scriptname-$Date.log
 
 validate() {
     if [ $1 -ne 0 ]
