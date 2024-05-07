@@ -1,0 +1,9 @@
+In the 16th century, an age of great marine and terrestrial exploration, Ferdinand Magellan led the first expedition to sail around the world. As a young Portuguese noble, he served the king of Portugal, but he became involved in the quagmire of political intrigue at court and lost the king’s favor. After he was dismissed from service by the king of Portugal, he offered to serve the future Emperor Charles V of Spain.
+A papal decree of 1493 had assigned all land in the New World west of 50 degrees W longitude to Spain and all the land east of that line to Portugal. Magellan offered to prove that the East Indies fell under Spanish authority. On September 20, 1519, Magellan set sail from Spain with five ships. More than a year later, one of these ships was exploring the topography of South America in search of a water route across the continent. This ship sank, but the remaining four ships searched along the southern peninsula of South America. Finally they found the passage they sought near 50 degrees S latitude. Magellan named this passage the Strait of All Saints, but today it is known as the Strait of Magellan.
+One ship deserted while in this passage and returned to Spain, so fewer sailors were privileged to gaze at that first panorama of the Pacific Ocean. Those who remained crossed the meridian now known as the International Date Line in the early spring of 1521 after 98 days on the Pacific Ocean. During those long days at sea, many of Magellan’s men died of starvation and disease.
+7KHUHLVQRWKLQJIUHVKGRZQKHUH³DQGQRVXSHUPDUNHWV³VRZHKDYH
+WRHDWDORWRIGULHGWLQQHGRUIUR]HQIRRGLWGRHVQ·WKDYHWREHSXW
+LQWKHIUHH]HU³\RXFDQMXVWOHDYHLWRXWVLGH:HFRRNRQVPDOOJDV
+VWRYHVZKLFKWDNHPXFKORQJHUWKDQFRRNHUVDWKRPH<HVWHUGD\,
+PDGHQRRGOHVZLWKWRPDWRSDVWHDQGYHJHWDEOHVRXWRIDWLQIROORZHG
+E\GULHGVWUDZEHUULHVWKDWWDVWHGOLNHFDUGERDUG
