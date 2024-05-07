@@ -12,3 +12,10 @@ else
   echo "NOW YOU ARE IN ROOT ACCESS,INSTALLATION IN PROCESS"
 fi
   yum install mysql -y
+
+  if [ $? -ne 0 ]
+  then
+    echo "installation of mysql is incomplete"
+  else
+    echo "MySql installation is completed"
+  fi
