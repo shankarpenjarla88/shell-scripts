@@ -5,7 +5,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-Date=$( date + %F )
+Date=$(date + %F)
 scriptname=$0
 logfile1=/tmp/$scriptname-$Date.log
 
