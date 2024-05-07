@@ -26,10 +26,10 @@ userid=$(id -u)
 
 if [ $userid -ne 0 ]
 then
-  echo "ERROR:PLEASE LOGIN WITH ROOT ACCESS"
+  echo -e " $R ERROR:PLEASE LOGIN WITH ROOT ACCESS $N"
   exit 1
 else
-  echo "NOW YOU ARE IN ROOT ACCESS<GOOD TO GO WITH INSTALLATION"
+  echo -e "$G NOW YOU ARE IN ROOT ACCESS<GOOD TO GO WITH INSTALLATION $N"
 fi
 
 for i in $@
