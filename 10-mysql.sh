@@ -19,3 +19,11 @@ fi
   else
     echo "MySql installation is completed"
   fi
+   yum install postfix -y 
+
+    if [ $? -ne 0 ]
+  then
+    echo "installation of postfix is incomplete"
+  else
+    echo "postfix installation is completed"
+  fi
