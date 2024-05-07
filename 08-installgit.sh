@@ -1,6 +1,6 @@
 #!/bin/bash
 
-userid=$(id-u)
+userid=$(id -u)
 
 # writing the code to install git.
 
