@@ -34,8 +34,15 @@ fi
 
 for i in $@
 do
-   yum install $i -y  &>>$logfile1
-   validate $? "$i INSTALLATION IS" 
+   yum list installed $i
+if [ $? -ne 0 ]
+then
+  echo "$i is not installed need to install"
+  yum install $i -y &>>$logfile1
+else
+  echo "$i is already installed"
+fi
+  validate $? "$i INSTALLATION IS" 
 done
 
 
