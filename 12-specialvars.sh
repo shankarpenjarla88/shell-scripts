@@ -5,3 +5,4 @@ var2=$2
 
 echo "retreiving the special variable one:$var1"
 echo "retrieving all special variables:$@"
+echo "Number of variables:$#"
