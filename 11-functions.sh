@@ -12,9 +12,9 @@ N="\e[0m"
 validate() {
     if [ $1 -ne 0 ]
     then 
-      echo "$2 IS  $R FAILED $N"
+      echo -e "$2 IS  $R FAILED $N"
     else
-      echo "$2 IS $G SUCCESS $N"
+      echo -e "$2 IS $G SUCCESS $N"
     fi
 }
 
