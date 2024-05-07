@@ -1,6 +1,9 @@
 #!/bin/bash
 
-userid=$( id -u )
+
+date=$(date +%F)
+scriptname=$0
+logfile=/tmp/$scriptname-$date.log
 
 validate() {
     if [ $1 -ne 0 ]
@@ -11,6 +14,8 @@ validate() {
     fi
 }
 
+userid=$( id -u )
+
 if [ $userid -ne 0 ]
 then 
   echo "ERROR:PLEASE LOGIN TO ADMIN ACCESS"
@@ -19,13 +24,13 @@ else
   echo "NOW YOU ARE IN THE ROOT ACCESS"
 fi
 
-yum install git -y 
+yum install git -y &>>$logfile
 validate $? "Git Installation"
 
-yum install mysql -y 
+yum install mysql -y &>>$logfile
 validate $? "Mysql Installation"
 
-yum install postfix -y 
+yum install postfix -y  &>>$logfile
 validate $? "Postfix Installation"
 
 
