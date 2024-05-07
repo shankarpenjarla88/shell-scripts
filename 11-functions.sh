@@ -31,8 +31,8 @@ fi
 yum install git -y &>>$logfile
 validate $? "Git Installation"
 
-yum install mysql -y &>>$logfile
-validate $? "Mysqlll Installation"
+yum install mysqlll -y &>>$logfile
+validate $? "Mysql Installation"
 
 yum install postfix -y  &>>$logfile
 validate $? "Postfix Installation"
