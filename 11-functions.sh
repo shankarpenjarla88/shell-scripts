@@ -5,9 +5,9 @@ userid=$( id -u )
 validate() {
     if [ $1 -ne 0 ]
     then 
-      echo "INSTALLATION IS FAILED"
+      echo "$2 IS FAILED"
     else
-      echo "INSTALLATION IS SUCCESS"
+      echo "$2 IS SUCCESS"
     fi
 }
 
