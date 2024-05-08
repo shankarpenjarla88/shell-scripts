@@ -1,10 +1,10 @@
 #!/bin/bash
 
-applogdir=/home/centos/app-logs
+applogdir=/root/app-logs
 
 date=$(date +%F)
 
-logsdir=/home/centos/shell-scripts-logs
+logsdir=/root/shell-scripts-logs
 
 scriptname=$0
 
