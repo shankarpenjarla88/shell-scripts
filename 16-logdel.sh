@@ -1,10 +1,10 @@
 #!/bin/bash
 
-applogdir= /root/app-logs
+applogdir=/root/app-logs
 
 date=$(date +%F)
 
-logsdir= /home/centos/shell-scripts-logs
+logsdir=/home/centos/shell-scripts-logs
 
 scriptname=$0
 
@@ -24,5 +24,5 @@ echo "Deleting $line" &>>$logfile
 rm -rf $line
 
 
-done < $file_to_delete
+done <<< $file_to_delete
 
