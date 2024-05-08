@@ -1,6 +1,6 @@
 #!/bin/bash
 
-applogdir=/root/app-logs
+applogdir=/home/centos/app-logs
 
 date=$(date +%F)
 
