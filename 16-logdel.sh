@@ -10,7 +10,7 @@ scriptname=$0
 
 logfile=$logsdir/$scriptname-$date.log
 
-files_to_delete=$( $applogdir -name "*.log" -type f -mtime +14)
+files_to_delete=$(find $applogdir -name "*.log" -type f -mtime +14)
 
 echo "$files_to_delete"
 
