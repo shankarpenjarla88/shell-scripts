@@ -8,7 +8,7 @@ logsdir=/home/centos/shell-scripts-logs
 
 scriptname=$0
 
-logfile=$logsdir/$0-$date.log
+logfile=$logsdir/$scriptname-$date.log
 
 files_to_delete=$( $applogdir -name "*.log" -type f -mtime +14)
 
@@ -20,7 +20,7 @@ do
 
 #we wil write all the statements here
 
-echo "Deleting $line" &>$logfile
+echo "Deleting $line" &>>$logfile
 rm -rf $line
 
 
