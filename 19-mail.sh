@@ -10,4 +10,4 @@ alert_type=$5
 
 final_body= $(sed -e 's/TEAM_NAME/DEVOPS_TEAM/g' -e 's/ALERT_TYPE/HIGH-DISK_USAGE/g' -e "s/message/$body template.html)
 
-echo "$final_body & Date $(date)" | mail -s "$subject" $to_add
+echo "$final_body & Date $(date)" | mail -s "$subject" "$to_add"
