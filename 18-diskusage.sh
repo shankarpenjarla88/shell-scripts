@@ -32,4 +32,6 @@ done <<< $DISK_USAGE
 
 echo -e  "Message is :$messages"
 
+echo "$messages & Date $(date)" | mail -s "HIGH DISK USAGE" shankarpenjarla88@gmail.com
+
 
