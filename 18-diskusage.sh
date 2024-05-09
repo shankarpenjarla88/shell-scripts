@@ -10,6 +10,8 @@ G="\e[32m"
 N="\e[0m"
 Y="\e[33m"
 
+messages=""
+
 DISK_USAGE=$(df -hT | grep -vE 'tmpfs|filesystem')
 DISK_USAGE_THRESHOLD=1
 
@@ -18,7 +20,16 @@ DISK_USAGE_THRESHOLD=1
 while IFS= read line
 do
   echo "output:$line" & >>$LOG_FILE
+  usage=$( echo $line | awk '{print $6}' | cut -d % -f1 )
+  partition=$( echo $line | awk '{print $1}')
+
+  if [ $usage -ge $DISK_USAGE_THRESHOLD]
+  then
+    messages+="high disk usage on $partition:$usage  \n"
+  fi
 
 done <<< $DISK_USAGE
+
+echo -e  "Message is :$messages"
 
 
