@@ -1,12 +1,12 @@
 #!/bin/bash
 
-log_dir=/home/centos/app-logs
+log_dir=/root/app-logs
 
 date=$(date +%F)
 
 script_name=$0
 
-log_fol=/home/centos/shell-script-logs
+log_fol=/root/shell-script-logs
 
 log_file=$log_fol/$script_name/$date.log
 
