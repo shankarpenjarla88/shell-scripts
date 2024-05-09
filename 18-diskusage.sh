@@ -32,6 +32,9 @@ done <<< $DISK_USAGE
 
 echo -e  "Message is :$messages"
 
-echo "$messages & Date $(date)" | mail -s "HIGH DISK USAGE" shankarpenjarla88@gmail.com
+#echo "$messages & Date $(date)" | mail -s "HIGH DISK USAGE" shankarpenjarla88@gmail.com
+
+#how to call other shell script from your existing script
+sh mail.sh shankarpenjarla88@gmail.com  "HIGH DISK USAGE" "$message" "DEVOPS_TEAM" "HIGH_DISK_USAGE"
 
 
